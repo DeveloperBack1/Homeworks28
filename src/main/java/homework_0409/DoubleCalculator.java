@@ -5,6 +5,7 @@ public class DoubleCalculator implements Calculator<Double> {
     @Override
     public Double add(Double a, Double b) {
         return a + b;
+
     }
 
     @Override

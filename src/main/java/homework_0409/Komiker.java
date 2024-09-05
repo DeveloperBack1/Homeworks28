@@ -2,6 +2,7 @@ package homework_0409;
 
 
 public class Komiker implements Performer {
+
     private String witzStyle;
 
     public Komiker(String witzStyle) {

@@ -3,7 +3,6 @@ package homework_0409;
 
 import java.util.ArrayList;
 import java.util.List;
-
 public class Concert<T extends Performer> {
     private List<T> performers = new ArrayList<>();
 
