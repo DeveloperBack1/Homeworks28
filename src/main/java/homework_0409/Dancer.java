@@ -6,6 +6,7 @@ public class Dancer implements Performer {
     public Dancer(String danceStyle) {
         this.danceStyle = danceStyle;
     }
+
     @Override
     public void perform() {
         System.out.println("Танцор исполняет " + danceStyle + " танец");

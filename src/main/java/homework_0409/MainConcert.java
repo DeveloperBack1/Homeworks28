@@ -7,7 +7,6 @@ package homework_0409;
 //к реализации?
 
 public class MainConcert {
-
     public static void main(String[] args) {
         Concert<Performer> concert = new Concert<>();
 

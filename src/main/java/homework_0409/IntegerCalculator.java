@@ -1,6 +1,7 @@
 package homework_0409;
 
 public class IntegerCalculator implements Calculator<Integer> {
+
     @Override
     public Integer add(Integer a, Integer b) {
         return a + b;

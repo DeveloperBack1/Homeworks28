@@ -2,6 +2,7 @@ package homework_0409;
 
 
 public class DoubleCalculator implements Calculator<Double> {
+
     @Override
     public Double add(Double a, Double b) {
         return a + b;

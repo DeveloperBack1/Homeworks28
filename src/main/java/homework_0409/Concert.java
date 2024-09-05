@@ -9,6 +9,7 @@ public class Concert<T extends Performer> {
     // Добавить артиста в концерт
     public void addPerformer(T performer) {
         performers.add(performer);
+
     }
 
     // Провести концерт

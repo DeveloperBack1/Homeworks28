@@ -10,7 +10,6 @@ public class Musiker implements Performer {
 
     @Override
     public void perform() {
-
         System.out.println("Музыкант играет на " + instrument);
     }
 }
