@@ -9,15 +9,15 @@ public class Iteration {
 
     private static int funIteration(int x, int y) {
         // Печатаем начальные значения x и y
-        System.out.println("Initial: x = " + x + "; y = " + y);
+        System.out.println(" x = " + x + "; y = " + y);
 
         while (x > 0) {
             y = x + y; // Обновляем значение y, как это делалось в рекурсивной функции
             x--; // Уменьшаем x на 1
-            System.out.println("x = " + x + "; y = " + y); // Печатаем текущие значения
+            System.out.println("x = " + x + "; y = " + y);
         }
 
-        return y; // Возвращаем результат
+        return y;
     }
 
 }
