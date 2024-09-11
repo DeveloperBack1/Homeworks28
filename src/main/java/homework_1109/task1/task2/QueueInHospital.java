@@ -11,6 +11,7 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class QueueInHospital {
+
     public static void main(String[] args) {
         // Создаем LinkedHashSet для хранения людей в порядке живой очереди
         Set<String> queue = new LinkedHashSet<>();

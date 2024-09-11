@@ -8,6 +8,7 @@ package homework_1109.task1;
 import java.util.TreeSet;
 
 public class Queue {
+
     public static void main(String[] args) {
         // Создаем TreeSet для хранения номеров очереди
         TreeSet<Integer> queue = new TreeSet<>();
