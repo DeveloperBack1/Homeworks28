@@ -73,6 +73,7 @@ public class MainArrayList {
         }
 
         // Выводим оставшиеся элементы списка
+
         System.out.println("ArrayList после удаления четных чисел: " + list);
 
         Integer max1 = null; // Самый большой элемент
