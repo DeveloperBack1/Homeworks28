@@ -5,6 +5,7 @@ import java.util.ListIterator;
 
 public class MainLinkedList {
     public static void main(String[] args) {
+
         // Создаем LinkedList и добавляем элементы
         LinkedList<Integer> linkedList = new LinkedList<>();
         linkedList.add(10);

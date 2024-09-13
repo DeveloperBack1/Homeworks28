@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class MainArrayList {
-
     public static void main(String[] args) {
         // Создаем ArrayList и добавляем элементы
         ArrayList<Integer> list = new ArrayList<>();
