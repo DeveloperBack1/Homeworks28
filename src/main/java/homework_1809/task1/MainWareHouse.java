@@ -1,8 +1,9 @@
 package homework_1809.task1;
 
 public class MainWareHouse {
+
     public static void main(String[] args) {
-        // Инициализируем склад с максимальной вместимостью 5 единиц продукции
+        // Инициализируем склад с максимальной вместимостью 7 единиц продукции
         WareHouse warehouse = new WareHouse(7);
 
         // Имитируем процесс работы склада

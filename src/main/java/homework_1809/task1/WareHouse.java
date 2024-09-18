@@ -10,7 +10,6 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class WareHouse {
-
     private Queue<Integer> products;
     private int maxCapacity;
 

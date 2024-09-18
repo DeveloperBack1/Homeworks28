@@ -16,6 +16,7 @@ public class WareHouse2Doors {
 
     // Метод для загрузки товара через одну дверь (в начало очереди)
     public void loadProduct(int product) {
+
         if (products.size() < maxCapacity) {
             products.addFirst(product);
             System.out.println("Товар " + product + " загружен через дверь загрузки (в начало склада).");

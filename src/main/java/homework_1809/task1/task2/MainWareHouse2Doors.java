@@ -2,6 +2,7 @@ package homework_1809.task1.task2;
 
 public class MainWareHouse2Doors {
     public static void main(String[] args) {
+
         // Инициализируем склад с максимальной вместимостью 5 единиц продукции
         WareHouse2Doors warehouse = new WareHouse2Doors(5);
 
